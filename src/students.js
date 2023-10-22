@@ -1,5 +1,6 @@
 const students = [
     {
+      id : 1,
       name: "Mahdi Fayaz",
       imgURL:
         "../public/images/Mahdi.jpg",
@@ -7,6 +8,7 @@ const students = [
       email: "mahdi@fayaz.com"
     },
     {
+      id : 2,
       name: "Zahra Rahmanifar",
       imgURL:
       "../public/images/Zahra.jpg",
@@ -14,6 +16,7 @@ const students = [
       email: "zahra@rahmanifar.com"
     },
     {
+      id : 3,
       name: "Reza Hoseini",
       imgURL:
       "../public/images/Reza.jpg",
@@ -22,6 +25,7 @@ const students = [
     },
 
     {
+        id : 4,
         name: "Samaneh Tupkanlu",
         imgURL:
         "../public/images/Samaneh.jpg",
@@ -29,6 +33,7 @@ const students = [
         email: "samaneh@oupkanloo.com"
       },
       {
+        id : 5,
         name: "Atousa Akbari",
         imgURL:
         "../public/images/Atusa.jpg",
@@ -36,6 +41,7 @@ const students = [
         email: "atusa@akbari.com"
       },
       {
+        id : 6,
         name: "Mahya Shamaee",
         imgURL:
         "../public/images/Mahya.jpg",

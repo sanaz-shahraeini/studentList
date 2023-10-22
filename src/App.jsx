@@ -1,11 +1,28 @@
 import Card from "./components/Card";
 import students from "./students";
 
+
+const createCard = (student) => {
+  return (
+    <Card 
+    key = {student.id}
+    name = {student.name}
+    img = {student.imgURL}
+    tel = {student.phone}
+    email = {student.email}
+    
+    />
+
+  )
+}
+
 const App = () => {
   return (
     <div>
       <h1 className="heading">Full Stack Students</h1>
-      <Card
+
+      {students.map(createCard)}
+      {/* <Card
         name={students[0].name}
         img={students[0].imgURL}
         tel={students[0].phone}
@@ -42,7 +59,7 @@ const App = () => {
         img={students[5].imgURL}
         tel={students[5].phone}
         email={students[5].email}
-      />
+      /> */}
     </div>
   );
 };
